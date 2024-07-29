@@ -1,0 +1,9 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+}
+/* src/App.css */
+.content {
+  padding-bottom: 60px; /* Adjust this value based on your footer's height */
+}

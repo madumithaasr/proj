@@ -1,0 +1,149 @@
+/* Apply Google Sans font to the entire page */
+body {
+  font-family: 'Google Sans', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the home page content */
+.homePageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+.homePageHeader {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.homePageHeader h1 {
+  margin: 0;
+  color: #6a1b9a;
+  font-size: 2.5rem;
+}
+
+/* Scheme filter styling */
+.schemeFilter {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.schemeFilter h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.schemeFilter label {
+  font-weight: bold;
+}
+
+.schemeFilter .form-control {
+  margin-bottom: 10px;
+}
+
+.schemeFilter .btn-primary {
+  background-color: #6a1b9a;
+  border-color: #6a1b9a;
+}
+
+/* Search bar styling */
+.searchBar {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.searchBar input {
+  width: calc(100% - 50px);
+  padding: 7px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.searchBar button {
+  padding: 10px 20px;
+  background-color: #6a1b9a;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.searchBar button:hover {
+  background-color: #4a148c;
+}
+
+/* Scheme list styling */
+.schemeList .card {
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.schemeList .cardTitle {
+  font-size: 1.25rem;
+  color: #6a1b9a;
+}
+
+.schemeList .cardText {
+  font-size: 1rem;
+  color: #282828;
+}
+
+/* Accordion styling */
+.accordion .cardHeader {
+  background-color: #f5f5f5;
+}
+
+.accordion .cardBody {
+  background-color: #ffffff;
+}
+
+.accordion .btnLink {
+  color: #6a1b9a;
+  text-decoration: none;
+}
+
+.accordion .btnLink:hover {
+  text-decoration: underline;
+}
+
+.search-bar {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: calc(100% - 50px);
+  padding: 7px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #6a1b9a;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #4a148c;
+}
